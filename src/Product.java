@@ -12,4 +12,15 @@ public class Product {
     public String getName(){
         return name;
     }
+
+    public boolean weeklimiet(boolean a, boolean b){
+
+        boolean limiet = false;
+
+        if (a && b){
+            limiet = true;
+        }
+        return limiet;
+    }
+
 }
