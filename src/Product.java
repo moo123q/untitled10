@@ -1,26 +1,14 @@
-public class Product {
-    private String name;
+public class Product{
 
-    public Product(String name){
-        this.name = name;
-    }
 
-    public void setName(String name){
-        this.name = name;
-    }
+    public static boolean weeklimietTest(boolean a, boolean b){
 
-    public String getName(){
-        return name;
-    }
-
-    public boolean weeklimiet(boolean a, boolean b){
-
-        boolean limiet = false;
-
+        boolean D = false;
         if (a && b){
-            limiet = true;
+            D = true;
+
         }
-        return limiet;
+        return D;
     }
 
 }
