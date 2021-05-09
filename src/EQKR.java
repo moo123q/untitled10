@@ -1,8 +1,12 @@
 public class EQKR {
+    private double inkomen = 2000;
+    private double vasteLasten = 1200;
 
-    public static boolean EQKRTest(double gekozenBedrag){
+    double overgeblevenBedrag = inkomen - vasteLasten;
+
+
+    public boolean EQKRTest(double gekozenBedrag){
         boolean D = false;
-        double overgeblevenBedrag = 800;
 
         if(gekozenBedrag <= overgeblevenBedrag){
             D = true;
@@ -10,5 +14,6 @@ public class EQKR {
 
         return D;
     }
+
 
 }
