@@ -10,18 +10,22 @@ class ProductTest {
 
 
     @Test
+
     void Test1() {
-        assertFalse(Product.weeklimietTest(f, t));
+        Product product = new Product();
+        assertFalse(product.weeklimietTest(f, t));
     }
 
     @Test
     void Test2() {
-        assertFalse(Product.weeklimietTest(t, f));
+        Product product = new Product();
+        assertFalse(product.weeklimietTest(t, f));
     }
 
     @Test
     void Test3() {
-        assertTrue(Product.weeklimietTest(t, t));
+        Product product = new Product();
+        assertTrue(product.weeklimietTest(t, t));
     }
 
 

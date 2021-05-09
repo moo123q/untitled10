@@ -1,6 +1,6 @@
 public class Product{
 
-    public static boolean weeklimietTest(boolean a, boolean b){
+    public boolean weeklimietTest(boolean a, boolean b){
 
 
         boolean D = false;
