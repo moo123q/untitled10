@@ -23,4 +23,6 @@ class ProductTest {
     void Test3() {
         assertTrue(Product.weeklimietTest(t, t));
     }
+
+
 }
