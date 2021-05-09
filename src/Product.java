@@ -1,15 +1,15 @@
-public class Product {
-    private String name;
+public class Product{
 
-    public Product(String name){
-        this.name = name;
+    public static boolean weeklimietTest(boolean a, boolean b){
+
+
+        boolean D = false;
+        if (a && b){
+            D = true;
+
+        }
+        return D;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
 
-    public String getName(){
-        return name;
-    }
 }
